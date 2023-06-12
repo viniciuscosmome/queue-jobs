@@ -1,0 +1,20 @@
+{
+  "name": "queue-jobs",
+  "version": "0.0.1",
+  "main": "lib/queue.controller.js",
+  "type": "module",
+  "repository": "https://github.com/viniciuscosmome/queue-jobs.git",
+  "author": "viniciuscosmome <48590313+viniciuscosmome@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "nodemon --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
+}
