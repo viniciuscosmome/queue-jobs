@@ -1,0 +1,13 @@
+Executar trabalhos:
+  ✔ Criar um arquivo que será utilizado para executar os trabalhos lentos; @done(23-06-12 00:58)
+Armazenar trabalho:
+  ☐ Criar banco de dados do tipo chave-valor;
+  ☐ Criar o índice para acelerar as buscas por trabalhos em espera;
+  ☐ Permitir salvar, ler, atualizar e apagar valores do banco de dados;
+  ☐ Armazenar as informações necessárias para a execução e acompanhamento dos trabalhos;
+Controlador de filas:
+  ☐ Inicializar as configurações das filas, essas configurações terão um valor padrão, mas podem ser modificadas pelo usuário;
+  ☐ Armazenar os trabalhos que serão executados no banco de dados;
+  ☐ Executar os trabalhos;
+  ☐ Atualizar o estado do trabalho no banco de dados;
+  ☐ Permitir tentar executar novamente os trabalhos que derem erros;
